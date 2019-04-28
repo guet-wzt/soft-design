@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="softproject:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/softproject_jar</output-path>
+    <root id="archive" name="softproject.jar">
+      <element id="module-output" name="softproject" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/idea_servlet_set/jsp-api.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/idea_servlet_set/servlet-api.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

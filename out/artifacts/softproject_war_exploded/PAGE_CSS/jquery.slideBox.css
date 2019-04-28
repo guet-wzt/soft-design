@@ -1,0 +1,161 @@
+@charset "utf-8";
+html, body {
+    font-family: "微软雅黑";
+    width: 100%;
+}
+.d1 a{
+    text-decoration: none;
+}
+.table1 td{
+    width: 100px;
+    text-align: center;
+}
+.photo{
+    position: absolute;
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+
+.table2{
+    margin-bottom: 8px;
+}
+.table2 td{
+    text-align: center;
+    padding-left:7px;
+    padding-right: 7px;
+}
+.carItem{
+    position: relative;
+    margin-left: 50px;
+}
+.t1{
+    text-align: center;
+}
+
+.d2{
+    margin-left: 80px;
+    margin-right: 100px;
+}
+.Kindle,.Promotion{
+    margin-bottom: 15px;
+}
+.table3,.table4{
+    margin-left: 150px;
+    margin-bottom: 6px;
+}
+.table3 td{
+    width: 80px;
+    text-align: center;
+
+}
+.show0{
+    overflow: hidden;
+}
+.show1{
+    overflow: hidden;
+}
+.slideBox{
+    float: left;
+}
+.table4 td{
+    width: 80px;
+    text-align: center;
+}
+.recommend{
+    overflow: hidden;
+}
+.Search{
+    float: left;
+}
+div.slideBox {
+    position: relative;
+    width: 670px;
+    height: 300px;
+    overflow: hidden;
+}
+#box2{
+    position: absolute;
+    margin-right: 100px;
+    margin-top: 100px;
+    float: left;
+}
+
+div.slideBox ul.items {
+    position: absolute;
+    float: left;
+    background: none;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+div.slideBox ul.items li {
+    float: left;
+    background: none;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+div.slideBox ul.items li a {
+    float: left;
+    line-height: normal !important;
+    padding: 0px !important;
+    border: none /*For IE.ADD.JENA.201206300844*/;
+}
+
+div.slideBox ul.items li a img {
+    margin: 0px !important;
+    padding: 0px !important;
+    display: block;
+    border: none /*For IE.ADD.JENA.201206300844*/;
+}
+
+div.slideBox div.tips {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+    overflow: hidden;
+}
+
+div.slideBox div.tips div.title {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+}
+
+div.slideBox div.tips div.title a {
+    color: #FFF;
+    font-size: 18px;
+    line-height: 50px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+div.slideBox div.tips div.title a:hover {
+    text-decoration: underline !important;
+}
+
+div.slideBox div.tips div.nums {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 100%;
+}
+
+div.slideBox div.tips div.nums a {
+    display: inline-block;
+> float: left /*For IE.ADD.JENA.201206300844*/;
+    width: 20px;
+    height: 20px;
+    background-color: #FFF;
+    text-indent: -99999px;
+    margin: 15px 10px 0px 0px;
+}
+
+div.slideBox div.tips div.nums a.active {
+    background-color: #093;
+}

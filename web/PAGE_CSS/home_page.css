@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    width: 100%;
+    alignment: center;
+}
+.top-menu{
+    height: 30px;
+    width: 100%;
+}
+.top-menu ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow:hidden;
+    white-space: nowrap;
+}
+.top-menu li{
+    float: left;
+}
+.LoginPart{
+    position:absolute ;
+    right: 0px;
+}
+.top-menu a:link,a:visited
+{
+    display:block;
+    width:100px;
+    color: #000000;
+    text-align:center;
+    padding:4px;
+    text-decoration:none;
+}
+.top-menu a:hover,a:active
+{
+    color: #ff9d00;
+}
+.Search_Part{
+    text-align: center;
+    alignment: center;
+    align-items: center;
+}
+
+.search_text{
+    position: relative;
+    margin-right: 1px;
+    border-color: #e30000;
+    width: 400px;
+    height: 40px;
+}
+.submit{
+    position: relative;
+    margin-left: 3px;
+    height: 40px;
+    width: 80px;
+    background-color: #ff9d00;
+}
